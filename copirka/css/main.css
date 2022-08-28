@@ -1,0 +1,121 @@
+*{
+	padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html, body, main {
+    height: 100%;
+    font-family: 'Roboto', sans-serif;
+}
+.first{
+	height: 100%;
+	background-image: url(../img/img1.jpg);
+	background-position: center;
+	background-size: cover;
+	-webkit-background-size: cover;
+}
+.first p{
+	color: white;
+}
+.tourismalex{
+	width: 100%;
+	text-align: center;
+	padding-top: 60px;
+	font-size: 20px;
+}
+.text-container{
+	width: 40%;
+	padding-left: 17%;
+	padding-top: 10%;
+}
+.first-line{
+	font-size: 28px;
+	font-weight: bold;
+	opacity: 0.6;
+}
+.second-line{
+	font-size:60px ;
+	font-weight: bold;
+	width: 1000%;
+	letter-spacing: 5px;
+}
+.third-line{
+	width: 150%;
+	opacity: 0.7;
+}
+.second{
+	height: 100%;
+	display: flex;
+	justify-content: center;
+    -ms-align-items: center;
+    align-items: center;
+}
+.gallery-container{
+	width: 60%;
+	max-width: 1000px;
+}
+.img-container{
+	width: 100%;
+	display: flex;
+	-ms-align-items: flex-start;
+    align-items: flex-start;
+}
+img{
+	display: block;
+	max-width: 100%;
+	height: auto;
+}
+.img1{
+	width: 55%;
+}
+.wrapper{
+	margin-left: 20px;
+}
+.img2{
+	margin-bottom: 20px;
+}
+.gallery-text{
+	display: flex;
+	justify-content: space-between;
+    -ms-align-items: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.gallery-header{
+	font-size: 35px;
+	font-weight: bold;
+	letter-spacing: 3px;
+}
+.gallery-p{
+	padding-left: 50px ;
+	opacity: 0.3;
+	font-size: 16px;
+}
+.third{
+	display: flex;
+	justify-content: center;
+    -ms-align-items: center;
+    align-items: center;
+    flex-direction: column;
+    height: 300px;
+    padding:0 25% ;
+    background-image: url(../img/img3.jpg);
+    background-position: center;
+	background-size: cover;
+	-webkit-background-size: cover;
+}
+.last-text{
+	color: white;
+	opacity: 0.6;
+	text-align: center;
+	line-height: 1.5;
+	letter-spacing: 1px;
+}
+.last-header{
+	color: white;
+	font-size: 22px;
+	padding: 10px 20px;
+	border: 1px solid white;
+	margin-bottom: 15px;
+}
